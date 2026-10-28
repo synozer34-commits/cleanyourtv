@@ -1,9 +1,6 @@
-{"tv": "Grundig Google TV QLED (wanchai)",
-
-"os": "Android 14 (SDK 34)",
-
-"readme_os": "Google TV 14",
-
-"brand": "Grundig",
-
-"notes": "Disables Arçelik telemetry, analytics, and demo ad services while keeping Live TV and Play Services." }
+{
+  "tv": "Grundig 55 GHQ 9500 55 QLED",
+  "os": "Android 14 (SDK 34)",
+  "brand": "Grundig",
+  "notes": "Telemetry, analytics, and demo ad services were disabled; Live TV and Play Services were preserved."
+}
