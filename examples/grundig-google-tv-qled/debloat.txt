@@ -1,0 +1,27 @@
+Grundig Google TV QLED (wanchai) - Android 14 (Build
+
+UKNV.260312.001)
+
+# Apply: tools/
+
+disable.sh examples/
+
+grundig-google-tv-qled/
+
+debloat.txt
+
+# Undo: tools/
+
+restore.sh examples/ grundig-google-tv-qled/ debloat.txt
+
+# Arçelik / Grundig Telemetry and Analytics arcelik.factory.factorystart # Arçelik initial setup telemetry
+
+com.arcelik.ecomode # Eco
+
+mode notification service com.arcelik.tvcarehub # Device telemetry and care analytics
+
+# Manufacturer Ad Services &amp; Content Providers fusion.android.tv.demo # Demo/ad content provider
+
+# Factory and Diagnostic Menus
+
+com.mediatek.tv.factory # Safe to disable to prevent factory mode issues mediatek.factorymenu.ui # MediaTek factory UI
